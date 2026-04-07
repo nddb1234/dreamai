@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template, request
 from groq import Groq
-from doten import load_dotenv
+from dotenv import load_dotenv
 import os
 
 app = Flask(__name__)
