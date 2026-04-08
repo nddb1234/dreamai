@@ -13,18 +13,7 @@ MODEL = "llama-3.3-70b-versatile"
 
 # clés API
 load_dotenv()
-API_KEYS = [
-    os.getenv("TOKEN1"),
-    os.getenv("TOKEN2"),
-    os.getenv("TOKEN3"),
-    os.getenv("TOKEN4"),
-    os.getenv("TOKEN5"),
-    os.getenv("TOKEN6"),
-    "TA_CLE_API_7",
-    "TA_CLE_API_8",
-    "TA_CLE_API_9",
-    "TA_CLE_API_10",
-]
+API_KEYS = API_KEYS = [os.getenv(f"TOKEN{i}") for i in range(1, 7)] 
 
 # prompt IA Dream
 SYSTEM_PROMPT = """
