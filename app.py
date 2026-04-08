@@ -15,11 +15,11 @@ MODEL = "llama-3.3-70b-versatile"
 load_dotenv()
 API_KEYS = [
     os.getenv("TOKEN1"),
-    "TA_CLE_API_2",
-    "TA_CLE_API_3",
-    "TA_CLE_API_4",
-    "TA_CLE_API_5",
-    "TA_CLE_API_6",
+    os.getenv("TOKEN2"),
+    os.getenv("TOKEN3"),
+    os.getenv("TOKEN4"),
+    os.getenv("TOKEN5"),
+    os.getenv("TOKEN6"),
     "TA_CLE_API_7",
     "TA_CLE_API_8",
     "TA_CLE_API_9",
